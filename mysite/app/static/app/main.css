@@ -1,0 +1,22 @@
+body
+{
+	margin: 0;
+
+	background-color: #FCF2E0;
+
+	font-family: 'Berlin Sans FB';
+}
+
+h1
+{
+	margin: 0;
+}
+
+.post
+{
+	margin-top: 50px;
+
+	width: 100%;
+
+	background-color: white;
+}
