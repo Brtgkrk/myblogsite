@@ -1,0 +1,17 @@
+{% extends "app/base.html" %}
+
+{% block content %}
+
+{% for post in posts %}
+
+	<div class="post">
+
+		<h1 class="postTitle">{{ post.title }}</h1>
+		<h6> <span class="postDate"> {{ post.date_posted }} </span> by <span class="postAuthor"> <a href="#">{{ post.author }} </a> </span> </h6>
+		<h2 class="postContent">{{ post.content }}</h2>
+
+	</div>
+
+{% endfor %}
+
+{% endblock content %}
